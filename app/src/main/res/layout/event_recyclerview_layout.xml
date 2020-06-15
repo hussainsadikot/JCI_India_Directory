@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/event_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginTop="8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_event_title"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:text="January"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:background="@color/colorAccent"
+
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:id="@+id/tv_event_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

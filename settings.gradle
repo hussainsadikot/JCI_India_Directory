@@ -1,0 +1,2 @@
+rootProject.name='JCI India Directory'
+include ':app'

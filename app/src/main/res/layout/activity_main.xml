@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/root_relative">
+
+
+            <ImageView
+                android:id="@+id/app_logo"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_android_dp"
+                />
+            <LinearLayout
+                android:id="@+id/current_ngb_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/app_logo"
+                android:layout_marginTop="32dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_current_ngb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_current_ngb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="Current NGB"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout> <LinearLayout
+            android:id="@+id/past_ngb_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@id/current_ngb_layout"
+            android:layout_marginTop="8dp"
+
+            >
+            <ImageView
+                android:id="@+id/image_past_ngb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_android_dp"
+                />
+            <Button
+                android:id="@+id/button_past_ngb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_foreground"
+                android:text="past NGB"
+                android:textAlignment="textStart"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/zgb_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/past_ngb_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_zgb"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_zgb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_android_dp"
+                    android:text="ZGB"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/committees_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/zgb_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_committees"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_committees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="committees"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nhq_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/committees_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_nhq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_nhq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="National head quarter"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/event_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/nhq_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_event"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="Event"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nom_cord_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/event_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_nom_cord"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_nom_cord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="Nom coordinators"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/past_np_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/nom_cord_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_past_np"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_past_np"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="Past National president"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/national_trainers_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/past_np_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_national_trainer"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_national_trainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="National Trainer"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/national_trainers_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_lom"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_lom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="lom"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
