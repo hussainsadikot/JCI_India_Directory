@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".AboutActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,223 +16,239 @@
             android:id="@+id/root_relative">
 
 
-            <ImageView
-                android:id="@+id/app_logo"
-                android:layout_width="400dp"
-                android:layout_height="200dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="8dp"
-                android:src="@drawable/jci_header"
-                />
             <LinearLayout
-                android:id="@+id/current_ngb_layout"
+                android:id="@+id/layout_Founder_Perspective"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/app_logo"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_current_ngb"
+                    android:id="@+id/image_Founder_Perspective"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_about_JCi_Main"
+                    android:id="@+id/button_Founder_Perspective"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="About JCI"
+                    android:text="Founder's Perspective"
                     android:textAlignment="textStart"
                     />
             </LinearLayout> <LinearLayout
-            android:id="@+id/past_ngb_layout"
+            android:id="@+id/layout_JCI_version_and_Mission"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_centerHorizontal="true"
 
-            android:layout_below="@id/current_ngb_layout"
+            android:layout_below="@id/layout_Founder_Perspective"
             android:layout_marginTop="8dp"
 
             >
             <ImageView
-                android:id="@+id/image_past_ngb"
+                android:id="@+id/image_JCI_version_and_Mission"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:src="@drawable/ic_android_dp"
                 />
             <Button
-                android:id="@+id/button_important_message"
+                android:id="@+id/button_JCI_version_and_Mission"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_launcher_foreground"
-                android:text="Important Message"
+                android:text="JCI vision &amp; Mission"
                 android:textAlignment="textStart"
                 />
         </LinearLayout>
             <LinearLayout
-                android:id="@+id/zgb_layout"
+                android:id="@+id/layout_JCI_Creed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/past_ngb_layout"
+                android:layout_below="@id/layout_JCI_version_and_Mission"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_zgb"
+                    android:id="@+id/image_JCI_Creed"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_zgb"
+                    android:id="@+id/button_JCI_Creed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_android_dp"
-                    android:text="ZGB"
+                    android:text="JCI Creed"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/committees_layout"
+                android:id="@+id/layout_about_jci_india"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/zgb_layout"
+                android:layout_below="@id/layout_JCI_Creed"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_committees"
+                    android:id="@+id/image_about_jci_india"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_national_governing_body"
+                    android:id="@+id/button_about_jci_india"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="national governing body"
+                    android:text="about jci"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/nhq_layout"
+                android:id="@+id/layout_Know_Your_JCI"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/committees_layout"
+                android:layout_below="@id/layout_about_jci_india"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_nhq"
+                    android:id="@+id/image_Know_Your_JCI"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_Lom_directory"
+                    android:id="@+id/button_Know_Your_JCI"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="Lom directory"
+                    android:text="Know Your JCI"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/event_layout"
+                android:id="@+id/History_of_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/nhq_layout"
+                android:layout_below="@id/layout_Know_Your_JCI"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_event"
+                    android:id="@+id/image_History_of"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_important_protocols"
+                    android:id="@+id/button_History_of"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="important protocols"
+                    android:text="History of JCI"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/nom_cord_layout"
+                android:id="@+id/Area_of_opportunities_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/event_layout"
+                android:layout_below="@id/History_of_layout"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_nom_cord"
+                    android:id="@+id/image_Area_of_opportunities"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_trainer"
+                    android:id="@+id/button_Area_of_opportunities"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="Trainers"
+                    android:text="Area of opportunities"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/past_np_layout"
+                android:id="@+id/JCI_word_head_quarters_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/nom_cord_layout"
+                android:layout_below="@id/Area_of_opportunities_layout"
                 android:layout_marginTop="8dp"
 
                 >
                 <ImageView
-                    android:id="@+id/image_past_np"
+                    android:id="@+id/image_JCI_word_head_quarters"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_android_dp"
                     />
                 <Button
-                    android:id="@+id/button_zone_president"
+                    android:id="@+id/button_JCI_word_head_quarters"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_launcher_foreground"
-                    android:text="zone_president"
+                    android:text="JCI word head quarters"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/JCI_national_head_quarters_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/Area_of_opportunities_layout"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_JCI_national_head_quarters"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_JCI_national_head_quarters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="JCI national head quarters"
                     android:textAlignment="textStart"
                     />
             </LinearLayout>

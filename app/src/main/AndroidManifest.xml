@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ZGBActivity"></activity>
+        <activity android:name=".ImportantMessageActivity"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ZGBActivity" />
         <activity android:name=".NGBProfileActivity" />
         <activity android:name=".EventActivity" />
         <activity android:name=".MainActivity">

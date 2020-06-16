@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImportantMessageActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/root_relative">
+
+
+            <LinearLayout
+                android:id="@+id/layout_Zone_President_Message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_Zone_President_Message"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_Zone_President_Message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="Zone_President_Message"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout> <LinearLayout
+            android:id="@+id/layout_JCI_india_president"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@id/layout_Zone_President_Message"
+            android:layout_marginTop="8dp"
+
+            >
+            <ImageView
+                android:id="@+id/image_JCI_india_president"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_android_dp"
+                />
+            <Button
+                android:id="@+id/button_JCI_india_president_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_foreground"
+                android:text="JCI india president message"
+                android:textAlignment="textStart"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_Imp_past_zone_president_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/layout_JCI_india_president"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_Imp_past_zone_president_message"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_Imp_past_zone_president_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_android_dp"
+                    android:text="Imp past zone president message"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_Zone_Directory_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+
+                android:layout_below="@id/layout_Imp_past_zone_president_message"
+                android:layout_marginTop="8dp"
+
+                >
+                <ImageView
+                    android:id="@+id/image_Zone_Directory_message"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_android_dp"
+                    />
+                <Button
+                    android:id="@+id/button_Zone_Directory_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher_foreground"
+                    android:text="ZD Zone Directory message"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
