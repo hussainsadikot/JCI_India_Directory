@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZonePresidentColumnActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/root_relative">
+
+
+            <LinearLayout
+                android:id="@+id/layout_Zone_president_column"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+
+                >
+                <Button
+                    android:id="@+id/button_Plan_Of_Action"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Plan_Of_Action"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+
+                    />
+                <Button
+                    android:id="@+id/button_Recognition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recognition"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+                    />
+                <Button
+                    android:id="@+id/button_100_Efficiency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100 % Efficiency"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

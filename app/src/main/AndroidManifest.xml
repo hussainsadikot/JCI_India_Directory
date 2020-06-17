@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ImportantMessageActivity"></activity>
+        <activity android:name=".PdfViewActivity"></activity>
+        <activity android:name=".ImportantProtocolActivity" />
+        <activity android:name=".ZonePresidentColumnActivity" />
+        <activity android:name=".TrainerActivity" />
+        <activity android:name=".LOMDirectoryActivity" />
+        <activity android:name=".ZoneGoverningBodyActivity" />
+        <activity android:name=".ImportantMessageActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".ZGBActivity" />
         <activity android:name=".NGBProfileActivity" />

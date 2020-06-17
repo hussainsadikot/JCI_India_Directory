@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainerActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/root_relative">
+
+
+            <LinearLayout
+                android:id="@+id/layout_trainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+
+                >
+                <Button
+                    android:id="@+id/button_Active_trainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Active trainer"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+
+                    />
+                <Button
+                    android:id="@+id/button_Prime_and_national_trainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prime and national trainer"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+                    />
+                <Button
+                    android:id="@+id/button_Zone_Trainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zone Trainer"
+                    android:textAlignment="textStart"
+                    android:layout_margin="8dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
