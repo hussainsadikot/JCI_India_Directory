@@ -25,10 +25,10 @@ public class PdfViewActivity extends AppCompatActivity {
                 pdfView.fromAsset("about_jci_total.pdf").load();
 
                 break;
-            case ("important_protocol.pdf"):
+            case ("PROTOCOLS_6.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
 
-                pdfView.fromAsset("important_protocol.pdf").load();
+                pdfView.fromAsset("PROTOCOLS_6.pdf").load();
                 break;
             case ("zone _governing_body.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
@@ -51,10 +51,10 @@ public class PdfViewActivity extends AppCompatActivity {
 
                 pdfView.fromAsset("zone_directory_5_1.pdf").load();
                 break;
-            case ("lom_performance.pdf"):
+            case ("LOM_PERFORMANCE_5_2.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
 
-                pdfView.fromAsset("lom_performance.pdf").load();
+                pdfView.fromAsset("LOM_PERFORMANCE_5_2.pdf").load();
                 break;
             case ("100Efficiency.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
@@ -71,8 +71,26 @@ public class PdfViewActivity extends AppCompatActivity {
 
                 pdfView.fromAsset("recognition.pdf").load();
                 break;
+            case ("BACKBONE_OF_ZONE_IX_3_3.pdf"):
+                pdfView =findViewById(R.id.pdf_view);
 
+                pdfView.fromAsset("BACKBONE_OF_ZONE_IX_3_3.pdf").load();
+                break;
+            case ("MESSAGES.pdf"):
+                pdfView =findViewById(R.id.pdf_view);
 
+                pdfView.fromAsset("MESSAGES.pdf").load();
+                break;
+            case ("Zone_9_trainers_detials_7_1.pdf"):
+                pdfView =findViewById(R.id.pdf_view);
+
+                pdfView.fromAsset("Zone_9_trainers_detials_7_1.pdf").load();
+                break;
+            case ("NATIONAL_TRAINERS_DETAILES_7_2.pdf"):
+                pdfView =findViewById(R.id.pdf_view);
+
+                pdfView.fromAsset("NATIONAL_TRAINERS_DETAILES_7_2.pdf").load();
+                break;
         }
     }
 }

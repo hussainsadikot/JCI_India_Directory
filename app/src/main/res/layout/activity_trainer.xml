@@ -43,14 +43,7 @@
                     android:textAlignment="textStart"
                     android:layout_margin="8dp"
                     />
-                <Button
-                    android:id="@+id/button_Zone_Trainer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Zone Trainer"
-                    android:textAlignment="textStart"
-                    android:layout_margin="8dp"
-                    />
+
 
 
 

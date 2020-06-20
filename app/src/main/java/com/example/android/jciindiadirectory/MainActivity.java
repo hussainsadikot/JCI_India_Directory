@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         lomDirectory =findViewById(R.id.button_Lom_directory);
         importantProtocol = findViewById(R.id.button_important_protocols);
         trainer =findViewById(R.id.button_trainer);
-        zonePresident = findViewById(R.id.button_zone_president_main);
+//        zonePresident = findViewById(R.id.button_zone_president_main);
         aboutJCI.setOnClickListener(this);
         importantProtocol.setOnClickListener(this);
 
@@ -41,19 +41,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //
 //            }
 //        });
-        importantMessage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Toast.makeText(MainActivity.this, "Important Message", Toast.LENGTH_SHORT).show();
-//                startActivity(new Intent(MainActivity.this,ImportantMessageActivity.class));
-            }
-        });
+        importantMessage.setOnClickListener(this);
 
         zoneGoverningBody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Zone Governing Body", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Zone Governing Body", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this,ZoneGoverningBodyActivity.class));
 
             }
@@ -74,24 +67,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         lomDirectory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "lom Directory ", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "lom Directory ", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this,LOMDirectoryActivity.class));
             }
         });
         trainer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Trainer", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Trainer", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this,TrainerActivity.class));
             }
         });
-        zonePresident.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Zone President", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainActivity.this,ZonePresidentColumnActivity.class));
-            }
-        });
+//        zonePresident.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                Toast.makeText(MainActivity.this, "Zone President", Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(MainActivity.this,ZonePresidentColumnActivity.class));
+//            }
+//        });
 
 
 
@@ -109,21 +102,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.button_important_protocols:
-                i.putExtra("file","important_protocol.pdf");
+                i.putExtra("file","PROTOCOLS_6.pdf");
                 startActivity(i);
                 break;
             case R.id.button_national_governing_body:
                 i.putExtra("file","national_governing_body.pdf");
                 startActivity(i);
                 break;
-//            case R.id.btn4:
-//                i.putExtra("file",4);
-//                startActivity(i);
-//                break;
+            case R.id.button_important_message:
+                i.putExtra("file","MESSAGES.pdf");
+                startActivity(i);
+                break;
 //            case R.id.btn5:
-//                i.putExtra("file",5);
-//                startActivity(i);
-//                break;
+////                i.putExtra("file",5);
+////                startActivity(i);
+////                break;
             default:
                 break;
         }

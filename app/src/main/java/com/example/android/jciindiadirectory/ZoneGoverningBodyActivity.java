@@ -44,9 +44,9 @@ public class ZoneGoverningBodyActivity extends AppCompatActivity implements View
                 startActivity(i);
                 break;
             case R.id.button_Backbone_of_Zone_IX:
-//                i.putExtra("file",3);
-//                startActivity(i);
-                Toast.makeText(this, "Pdf will be loaded", Toast.LENGTH_SHORT).show();
+                i.putExtra("file","BACKBONE_OF_ZONE_IX_3_3.pdf");
+                startActivity(i);
+//                Toast.makeText(this, "Pdf will be loaded", Toast.LENGTH_SHORT).show();
                 break;
 //            case R.id.btn4:
 //                i.putExtra("file",4);

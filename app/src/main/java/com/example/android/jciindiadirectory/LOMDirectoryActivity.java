@@ -35,9 +35,9 @@ public class LOMDirectoryActivity extends AppCompatActivity implements View.OnCl
                 break;
 
             case R.id.button_LOM_Performance:
-                i.putExtra("file","lom_performance.pdf");
+                i.putExtra("file","LOM_PERFORMANCE_5_2.pdf");
                 startActivity(i);
-                Toast.makeText(this, "Pdf will be loaded", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Pdf will be loaded", Toast.LENGTH_SHORT).show();
                 break;
            default:
                 break;

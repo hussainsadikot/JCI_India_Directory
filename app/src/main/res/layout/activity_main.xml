@@ -4,201 +4,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-
             android:id="@+id/root_relative">
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-
-            android:id="@+id/root_relative_image">
-
-
-
-
             <ImageView
                 android:id="@+id/app_logo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
+                android:layout_width="500dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jci_logo_front"
 
-                android:src="@drawable/jci_header"
                 />
-        </RelativeLayout>
             <LinearLayout
                 android:id="@+id/current_ngb_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/root_relative_image"
-                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_below="@id/app_logo"
 
                 >
                 <Button
                     android:id="@+id/button_about_JCi_Main"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_height="62dp"
+
                     android:text="About JCI"
                     android:textAlignment="textStart"
+
                     />
-            </LinearLayout> <LinearLayout
-            android:id="@+id/past_ngb_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_centerHorizontal="true"
+                <Button
+                    android:id="@+id/button_important_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
 
-            android:layout_below="@id/current_ngb_layout"
-            android:layout_marginTop="8dp"
-
-            >
-            <Button
-                android:id="@+id/button_important_message"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher_foreground"
-                android:text="Important Message"
-                android:textAlignment="textStart"
-                />
-        </LinearLayout>
-            <LinearLayout
-                android:id="@+id/zgb_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/past_ngb_layout"
-                android:layout_marginTop="8dp"
-
-                >
+                    android:text="Important Message"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="8dp"
+                    />
                 <Button
                     android:id="@+id/button_zgb"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_android_dp"
+                    android:layout_height="62dp"
                     android:text="ZGB"
                     android:textAlignment="textStart"
+                    android:layout_marginTop="8dp"
                     />
-            </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/committees_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/zgb_layout"
-                android:layout_marginTop="8dp"
-
-                >
                 <Button
                     android:id="@+id/button_national_governing_body"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_height="62dp"
                     android:text="national governing body"
                     android:textAlignment="textStart"
+                    android:layout_marginTop="8dp"
                     />
-            </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/nhq_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/committees_layout"
-                android:layout_marginTop="8dp"
-
-                >
                 <Button
                     android:id="@+id/button_Lom_directory"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_height="62dp"
                     android:text="Lom directory"
                     android:textAlignment="textStart"
+                    android:layout_marginTop="8dp"
                     />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/event_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/nhq_layout"
-                android:layout_marginTop="8dp"
-
-                >
                 <Button
                     android:id="@+id/button_important_protocols"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_height="62dp"
                     android:text="important protocols"
                     android:textAlignment="textStart"
+                    android:layout_marginTop="8dp"
                     />
-            </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/nom_cord_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
-
-                android:layout_below="@id/event_layout"
-                android:layout_marginTop="8dp"
-
-                >
                 <Button
                     android:id="@+id/button_trainer"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:layout_height="62dp"
                     android:text="Trainers"
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
                     />
-            </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/past_np_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_centerHorizontal="true"
 
-                android:layout_below="@id/nom_cord_layout"
-                android:layout_marginTop="8dp"
-
-                >
-                <Button
-                    android:id="@+id/button_zone_president_main"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:text="zone president"
-                    android:textAlignment="textStart"
-                    />
             </LinearLayout>
 
         </RelativeLayout>
