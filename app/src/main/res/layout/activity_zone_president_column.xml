@@ -24,23 +24,30 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="32dp"
 
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+
                 >
 
                 <Button
                     android:id="@+id/button_Recognition"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Recognition"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
-                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:text="Recognition"
                     />
                 <Button
                     android:id="@+id/button_100_Efficiency"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="100 % Efficiency"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
-                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:text="100 % Efficiency"
                     />
 
 

@@ -24,23 +24,30 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="32dp"
 
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+
                 >
                 <Button
                     android:id="@+id/button_LOM_Directory"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
 
                     android:text="LOM Directory"
-                    android:textAlignment="textStart"
-                    android:layout_margin="8dp"
                     />
                 <Button
                     android:id="@+id/button_LOM_Performance"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="LOM Performance"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
-                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:text="LOM Performance"
                     />
 
 

@@ -36,11 +36,11 @@ public class ZoneGoverningBodyActivity extends AppCompatActivity implements View
         Intent i = new Intent(ZoneGoverningBodyActivity.this, PdfViewActivity.class);
         switch (v.getId()) {
             case R.id.button_Zone_governing_board:
-                i.putExtra("file", "zone _governing_body.pdf");
+                i.putExtra("file", "ZONE_GOVERNING_BOARD_3_2.pdf");
                 startActivity(i);
                 break;
             case R.id.button_zone_president:
-                i.putExtra("file", "zone_president.pdf");
+                i.putExtra("file", "ZONE_PRESIDENT_3_1.pdf");
                 startActivity(i);
                 break;
             case R.id.button_Backbone_of_Zone_IX:

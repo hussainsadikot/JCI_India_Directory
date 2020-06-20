@@ -30,15 +30,15 @@ public class PdfViewActivity extends AppCompatActivity {
 
                 pdfView.fromAsset("PROTOCOLS_6.pdf").load();
                 break;
-            case ("zone _governing_body.pdf"):
+            case ("ZONE_GOVERNING_BOARD_3_2.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
 
-                pdfView.fromAsset("zone _governing_body.pdf").load();
+                pdfView.fromAsset("ZONE_GOVERNING_BOARD_3_2.pdf").load();
                 break;
-            case ("zone_president.pdf"):
+            case ("ZONE_PRESIDENT_3_1.pdf"):
                 pdfView =findViewById(R.id.pdf_view);
 
-                pdfView.fromAsset("zone_president.pdf").load();
+                pdfView.fromAsset("ZONE_PRESIDENT_3_1.pdf").load();
                 break;
 
             case ("national_governing_body.pdf"):

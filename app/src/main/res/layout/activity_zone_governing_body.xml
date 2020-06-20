@@ -24,33 +24,42 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="32dp"
 
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+
                 >
 
                 <Button
                     android:id="@+id/button_zone_president"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="Zone President"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
-                    android:layout_margin="8dp"
+                    android:textSize="18sp"
                     />
                 <Button
                     android:id="@+id/button_Zone_governing_board"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="62dp"
+
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
 
                     android:text="Zone governing board"
-                    android:textAlignment="textStart"
-                    android:layout_margin="8dp"
                     />
                 <Button
                     android:id="@+id/button_Backbone_of_Zone_IX"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="62dp"
 
-                    android:text="Backbone of Zone IX"
+                    android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
-                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:text="Backbone of Zone IX"
+
                     />
             </LinearLayout>
 

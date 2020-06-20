@@ -40,7 +40,7 @@
                     android:id="@+id/button_about_JCi_Main"
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
-
+                    android:textSize="18sp"
                     android:text="About JCI"
                     android:textAlignment="textStart"
 
@@ -49,7 +49,7 @@
                     android:id="@+id/button_important_message"
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
-
+                    android:textSize="18sp"
                     android:text="Important Message"
                     android:textAlignment="textStart"
                     android:layout_marginTop="8dp"
@@ -59,6 +59,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
                     android:text="ZGB"
+                    android:textSize="18sp"
                     android:textAlignment="textStart"
                     android:layout_marginTop="8dp"
                     />
@@ -67,6 +68,7 @@
                     android:id="@+id/button_national_governing_body"
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
+                    android:textSize="18sp"
                     android:text="national governing body"
                     android:textAlignment="textStart"
                     android:layout_marginTop="8dp"
@@ -79,6 +81,7 @@
                     android:text="Lom directory"
                     android:textAlignment="textStart"
                     android:layout_marginTop="8dp"
+                    android:textSize="18sp"
                     />
                 <Button
                     android:id="@+id/button_important_protocols"
@@ -87,15 +90,18 @@
                     android:text="important protocols"
                     android:textAlignment="textStart"
                     android:layout_marginTop="8dp"
+                    android:textSize="18sp"
                     />
 
                 <Button
                     android:id="@+id/button_trainer"
                     android:layout_width="match_parent"
                     android:layout_height="62dp"
-                    android:text="Trainers"
+
                     android:layout_marginTop="8dp"
                     android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:text="Trainers"
                     />
 
 
